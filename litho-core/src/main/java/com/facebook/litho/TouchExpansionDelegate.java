@@ -21,13 +21,16 @@ import static com.facebook.litho.LayoutOutput.getLayoutOutput;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Rect;
+import android.support.annotation.Nullable;
+import android.support.annotation.VisibleForTesting;
+import android.support.v4.util.SparseArrayCompat;
 import android.view.MotionEvent;
 import android.view.TouchDelegate;
 import android.view.View;
 import android.view.ViewConfiguration;
-import androidx.annotation.Nullable;
-import androidx.annotation.VisibleForTesting;
-import androidx.collection.SparseArrayCompat;
+//import androidx.annotation.Nullable;
+//import androidx.annotation.VisibleForTesting;
+//import androidx.collection.SparseArrayCompat;
 import com.facebook.rendercore.MountItem;
 
 /** Compound touch delegate that forward touch events to recyclable inner touch delegates. */

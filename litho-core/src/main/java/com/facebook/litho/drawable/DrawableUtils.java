@@ -17,7 +17,8 @@
 package com.facebook.litho.drawable;
 
 import android.graphics.drawable.Drawable;
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
+//import androidx.annotation.Nullable;
 
 public class DrawableUtils {
 

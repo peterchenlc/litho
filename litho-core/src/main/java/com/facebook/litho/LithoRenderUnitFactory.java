@@ -16,9 +16,11 @@
 
 package com.facebook.litho;
 
+import android.support.annotation.Nullable;
+
 import static com.facebook.rendercore.RenderUnit.Extension.extension;
 
-import androidx.annotation.Nullable;
+//import androidx.annotation.Nullable;
 import com.facebook.rendercore.RenderUnit;
 import java.util.List;
 

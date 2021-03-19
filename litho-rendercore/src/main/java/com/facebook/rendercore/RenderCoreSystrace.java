@@ -18,7 +18,8 @@ package com.facebook.rendercore;
 
 import android.os.Build;
 import android.os.Trace;
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
+//import androidx.annotation.Nullable;
 
 public final class RenderCoreSystrace {
 

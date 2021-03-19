@@ -18,8 +18,9 @@ package com.facebook.litho;
 
 import static com.facebook.litho.EventDispatcherUtils.dispatchOnLongClick;
 
+import android.support.annotation.Nullable;
 import android.view.View;
-import androidx.annotation.Nullable;
+//import androidx.annotation.Nullable;
 
 /** Long click listener that triggers its underlying event handler. */
 class ComponentLongClickListener implements View.OnLongClickListener {

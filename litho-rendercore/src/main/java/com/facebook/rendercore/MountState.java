@@ -19,9 +19,11 @@ package com.facebook.rendercore;
 import static com.facebook.rendercore.extensions.RenderCoreExtension.shouldUpdate;
 
 import android.content.Context;
+import android.support.annotation.Nullable;
+import android.support.v4.util.LongSparseArray;
 import android.view.View;
-import androidx.annotation.Nullable;
-import androidx.collection.LongSparseArray;
+//import androidx.annotation.Nullable;
+//import androidx.collection.LongSparseArray;
 import com.facebook.rendercore.extensions.ExtensionState;
 import com.facebook.rendercore.extensions.MountExtension;
 import com.facebook.rendercore.extensions.RenderCoreExtension;

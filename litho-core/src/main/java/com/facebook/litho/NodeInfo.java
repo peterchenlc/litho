@@ -16,10 +16,12 @@
 
 package com.facebook.litho;
 
+import android.support.annotation.IntDef;
+import android.support.annotation.Nullable;
 import android.util.SparseArray;
 import android.view.ViewOutlineProvider;
-import androidx.annotation.IntDef;
-import androidx.annotation.Nullable;
+//import androidx.annotation.IntDef;
+//import androidx.annotation.Nullable;
 import com.facebook.infer.annotation.ThreadConfined;
 import com.facebook.litho.AccessibilityRole.AccessibilityRoleType;
 import java.lang.annotation.Retention;

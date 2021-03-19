@@ -16,7 +16,9 @@
 
 package com.facebook.litho;
 
-import androidx.annotation.Nullable;
+//import androidx.annotation.Nullable;
+
+import android.support.annotation.Nullable;
 
 /**
  * Event triggered when a Component enters the Visible Range. This happens when at least a pixel of

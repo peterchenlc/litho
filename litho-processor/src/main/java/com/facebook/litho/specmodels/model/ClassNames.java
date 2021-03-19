@@ -28,7 +28,8 @@ public interface ClassNames {
   ClassName STRING = ClassName.bestGuess("java.lang.String");
   ClassName EXCEPTION = ClassName.bestGuess("java.lang.Exception");
   ClassName COMMON_UTILS = ClassName.bestGuess("com.facebook.litho.CommonUtils");
-  ClassName NULLABLE = ClassName.bestGuess("androidx.annotation.Nullable");
+//  ClassName NULLABLE = ClassName.bestGuess("androidx.annotation.Nullable");
+  ClassName NULLABLE = ClassName.bestGuess("android.support.annotation.Nullable");
 
   String VIEW_NAME = "android.view.View";
   ClassName VIEW = ClassName.bestGuess(VIEW_NAME);
@@ -36,20 +37,34 @@ public interface ClassNames {
   ClassName DRAWABLE = ClassName.bestGuess(DRAWABLE_NAME);
   ClassName ANDROID_CONTEXT = ClassName.bestGuess("android.content.Context");
 
+//  ClassName ACCESSIBILITY_NODE =
+//      ClassName.bestGuess("androidx.core.view.accessibility.AccessibilityNodeInfoCompat");
   ClassName ACCESSIBILITY_NODE =
-      ClassName.bestGuess("androidx.core.view.accessibility.AccessibilityNodeInfoCompat");
+          ClassName.bestGuess("android.support.v4.view.accessibility.AccessibilityNodeInfoCompat");
 
-  ClassName STRING_RES = ClassName.bestGuess("androidx.annotation.StringRes");
-  ClassName INT_RES = ClassName.bestGuess("androidx.annotation.IntegerRes");
-  ClassName BOOL_RES = ClassName.bestGuess("androidx.annotation.BoolRes");
-  ClassName COLOR_RES = ClassName.bestGuess("androidx.annotation.ColorRes");
-  ClassName COLOR_INT = ClassName.bestGuess("androidx.annotation.ColorInt");
-  ClassName DIMEN_RES = ClassName.bestGuess("androidx.annotation.DimenRes");
-  ClassName ATTR_RES = ClassName.bestGuess("androidx.annotation.AttrRes");
-  ClassName DRAWABLE_RES = ClassName.bestGuess("androidx.annotation.DrawableRes");
-  ClassName ARRAY_RES = ClassName.bestGuess("androidx.annotation.ArrayRes");
-  ClassName DIMENSION = ClassName.bestGuess("androidx.annotation.Dimension");
-  ClassName PX = ClassName.bestGuess("androidx.annotation.Px");
+//  ClassName STRING_RES = ClassName.bestGuess("androidx.annotation.StringRes");
+//  ClassName INT_RES = ClassName.bestGuess("androidx.annotation.IntegerRes");
+//  ClassName BOOL_RES = ClassName.bestGuess("androidx.annotation.BoolRes");
+//  ClassName COLOR_RES = ClassName.bestGuess("androidx.annotation.ColorRes");
+//  ClassName COLOR_INT = ClassName.bestGuess("androidx.annotation.ColorInt");
+//  ClassName DIMEN_RES = ClassName.bestGuess("androidx.annotation.DimenRes");
+//  ClassName ATTR_RES = ClassName.bestGuess("androidx.annotation.AttrRes");
+//  ClassName DRAWABLE_RES = ClassName.bestGuess("androidx.annotation.DrawableRes");
+//  ClassName ARRAY_RES = ClassName.bestGuess("androidx.annotation.ArrayRes");
+//  ClassName DIMENSION = ClassName.bestGuess("androidx.annotation.Dimension");
+//  ClassName PX = ClassName.bestGuess("androidx.annotation.Px");
+
+  ClassName STRING_RES = ClassName.bestGuess("android.support.annotation.StringRes");
+  ClassName INT_RES = ClassName.bestGuess("android.support.annotation.IntegerRes");
+  ClassName BOOL_RES = ClassName.bestGuess("android.support.annotation.BoolRes");
+  ClassName COLOR_RES = ClassName.bestGuess("android.support.annotation.ColorRes");
+  ClassName COLOR_INT = ClassName.bestGuess("android.support.annotation.ColorInt");
+  ClassName DIMEN_RES = ClassName.bestGuess("android.support.annotation.DimenRes");
+  ClassName ATTR_RES = ClassName.bestGuess("android.support.annotation.AttrRes");
+  ClassName DRAWABLE_RES = ClassName.bestGuess("android.support.annotation.DrawableRes");
+  ClassName ARRAY_RES = ClassName.bestGuess("android.support.annotation.ArrayRes");
+  ClassName DIMENSION = ClassName.bestGuess("android.support.annotation.Dimension");
+  ClassName PX = ClassName.bestGuess("android.support.annotation.Px");
 
   ClassName LIST = ClassName.get(List.class);
   ClassName ARRAY_LIST = ClassName.get(ArrayList.class);

@@ -17,7 +17,8 @@
 package com.facebook.litho;
 
 import android.annotation.SuppressLint;
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
+//import androidx.annotation.Nullable;
 import com.facebook.infer.annotation.Assertions;
 import com.facebook.infer.annotation.Nullsafe;
 import java.util.ArrayList;

@@ -18,9 +18,10 @@ package com.facebook.litho;
 
 import android.graphics.drawable.Drawable;
 import android.os.Build;
+import android.support.annotation.VisibleForTesting;
 import android.util.SparseArray;
 import android.view.View;
-import androidx.annotation.VisibleForTesting;
+//import androidx.annotation.VisibleForTesting;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;

@@ -16,8 +16,11 @@
 
 package com.facebook.litho;
 
-import androidx.annotation.Nullable;
-import androidx.annotation.Px;
+//import androidx.annotation.Nullable;
+//import androidx.annotation.Px;
+import android.support.annotation.Nullable;
+import android.support.annotation.Px;
+
 import com.facebook.yoga.YogaAlign;
 import com.facebook.yoga.YogaDirection;
 import com.facebook.yoga.YogaEdge;

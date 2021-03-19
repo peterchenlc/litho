@@ -17,10 +17,13 @@
 package com.facebook.litho.widget;
 
 import android.graphics.PointF;
+import android.support.v7.widget.LinearSnapHelper;
+import android.support.v7.widget.OrientationHelper;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
-import androidx.recyclerview.widget.LinearSnapHelper;
-import androidx.recyclerview.widget.OrientationHelper;
-import androidx.recyclerview.widget.RecyclerView;
+//import androidx.recyclerview.widget.LinearSnapHelper;
+//import androidx.recyclerview.widget.OrientationHelper;
+//import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Implementation of the {@link LinearSnapHelper} supporting hscroll custom target child view

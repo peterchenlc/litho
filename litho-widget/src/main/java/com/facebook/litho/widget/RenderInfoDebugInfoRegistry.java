@@ -16,8 +16,9 @@
 
 package com.facebook.litho.widget;
 
+import android.support.annotation.Nullable;
 import android.view.View;
-import androidx.annotation.Nullable;
+//import androidx.annotation.Nullable;
 import java.lang.ref.WeakReference;
 import java.util.Map;
 import java.util.WeakHashMap;

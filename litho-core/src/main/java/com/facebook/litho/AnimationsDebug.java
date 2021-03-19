@@ -20,8 +20,9 @@ import static com.facebook.litho.LayoutOutput.getLayoutOutput;
 
 import android.content.Context;
 import android.provider.Settings;
+import android.support.annotation.Nullable;
 import android.util.Log;
-import androidx.annotation.Nullable;
+//import androidx.annotation.Nullable;
 import com.facebook.litho.config.ComponentsConfiguration;
 
 /** Utilities for animations debug. */

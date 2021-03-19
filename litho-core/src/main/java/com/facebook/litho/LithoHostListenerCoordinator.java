@@ -17,8 +17,10 @@
 package com.facebook.litho;
 
 import android.graphics.Rect;
-import androidx.annotation.Nullable;
-import androidx.annotation.VisibleForTesting;
+import android.support.annotation.Nullable;
+import android.support.annotation.VisibleForTesting;
+//import androidx.annotation.Nullable;
+//import androidx.annotation.VisibleForTesting;
 import com.facebook.infer.annotation.Nullsafe;
 import com.facebook.litho.stats.LithoStats;
 import com.facebook.rendercore.MountDelegateTarget;

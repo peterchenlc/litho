@@ -18,8 +18,9 @@ package com.facebook.litho;
 
 import static com.facebook.litho.ComponentsReporter.map;
 
+import android.support.annotation.Nullable;
 import android.util.Log;
-import androidx.annotation.Nullable;
+//import androidx.annotation.Nullable;
 import com.facebook.rendercore.AbstractErrorReporter;
 import com.facebook.rendercore.LogLevel;
 import java.util.Map;

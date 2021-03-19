@@ -16,12 +16,15 @@
 
 package com.facebook.litho.specmodels.generator;
 
+import android.support.annotation.Nullable;
+import android.support.annotation.VisibleForTesting;
+
 import static com.facebook.litho.specmodels.generator.ComponentBodyGenerator.getComparableType;
 import static com.facebook.litho.specmodels.generator.StateGenerator.FLAG_LAZY;
 import static com.facebook.litho.specmodels.generator.StateGenerator.hasUpdateStateWithTransition;
 
-import androidx.annotation.Nullable;
-import androidx.annotation.VisibleForTesting;
+//import androidx.annotation.Nullable;
+//import androidx.annotation.VisibleForTesting;
 import com.facebook.litho.annotations.Comparable;
 import com.facebook.litho.annotations.Param;
 import com.facebook.litho.annotations.State;

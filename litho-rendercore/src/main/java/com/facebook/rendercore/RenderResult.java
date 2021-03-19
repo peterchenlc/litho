@@ -17,9 +17,11 @@
 package com.facebook.rendercore;
 
 import android.content.Context;
+import android.support.annotation.Nullable;
+import android.support.annotation.VisibleForTesting;
 import android.util.Pair;
-import androidx.annotation.Nullable;
-import androidx.annotation.VisibleForTesting;
+//import androidx.annotation.Nullable;
+//import androidx.annotation.VisibleForTesting;
 import com.facebook.rendercore.RenderState.LayoutContext;
 import com.facebook.rendercore.RenderState.LazyTree;
 import com.facebook.rendercore.extensions.RenderCoreExtension;

@@ -16,7 +16,9 @@
 
 package com.facebook.litho.widget;
 
-import androidx.annotation.IntDef;
+//import androidx.annotation.IntDef;
+
+import android.support.annotation.IntDef;
 
 /**
  * An implementation of this interface will provide both the {@link

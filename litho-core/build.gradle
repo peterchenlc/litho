@@ -71,8 +71,9 @@ dependencies {
     // Android Support Library
     compileOnly deps.supportAnnotations
     implementation deps.supportCore
-    implementation deps.supportCustomView
-    implementation deps.supportViewPager
+    implementation deps.supportAppCompat
+//    implementation deps.supportCustomView
+//    implementation deps.supportViewPager
 
     // First-party dependencies
     if (project.isRelease()) {

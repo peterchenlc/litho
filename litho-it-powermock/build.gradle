@@ -60,6 +60,6 @@ dependencies {
     testImplementation deps.robolectric
     testImplementation deps.soloader
     testImplementation deps.supportRecyclerView
-    testImplementation deps.supportSwipeRefresh
+//    testImplementation deps.supportSwipeRefresh
     testImplementation deps.supportTestCore
 }

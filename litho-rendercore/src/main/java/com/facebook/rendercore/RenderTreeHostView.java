@@ -17,9 +17,11 @@ package com.facebook.rendercore;
 import static com.facebook.rendercore.RootHostDelegate.MAX_REMOUNT_RETRIES;
 
 import android.content.Context;
+import android.support.annotation.Nullable;
+import android.support.annotation.VisibleForTesting;
 import android.util.AttributeSet;
-import androidx.annotation.Nullable;
-import androidx.annotation.VisibleForTesting;
+//import androidx.annotation.Nullable;
+//import androidx.annotation.VisibleForTesting;
 import com.facebook.rendercore.extensions.RenderCoreExtension;
 
 public class RenderTreeHostView extends HostView implements RenderTreeHost {

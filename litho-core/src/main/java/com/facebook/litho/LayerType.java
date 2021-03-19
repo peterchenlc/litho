@@ -17,8 +17,9 @@
 package com.facebook.litho;
 
 import android.graphics.Paint;
+import android.support.annotation.IntDef;
 import android.view.View;
-import androidx.annotation.IntDef;
+//import androidx.annotation.IntDef;
 
 /** Enumerates all the valid valid for {@link Component.Builder#layerType(int, Paint)} */
 @IntDef({

@@ -16,13 +16,19 @@
 
 package com.facebook.litho.widget;
 
-import androidx.annotation.AnyThread;
-import androidx.annotation.GuardedBy;
-import androidx.annotation.Nullable;
-import androidx.annotation.UiThread;
-import androidx.recyclerview.widget.RecyclerView;
-import androidx.recyclerview.widget.RecyclerView.OnScrollListener;
-import androidx.recyclerview.widget.RecyclerView.ViewHolder;
+import android.support.annotation.AnyThread;
+import android.support.annotation.GuardedBy;
+import android.support.annotation.Nullable;
+import android.support.annotation.UiThread;
+import android.support.v7.widget.RecyclerView;
+
+//import androidx.annotation.AnyThread;
+//import androidx.annotation.GuardedBy;
+//import androidx.annotation.Nullable;
+//import androidx.annotation.UiThread;
+//import androidx.recyclerview.widget.RecyclerView;
+//import androidx.recyclerview.widget.RecyclerView.OnScrollListener;
+//import androidx.recyclerview.widget.RecyclerView.ViewHolder;
 import com.facebook.litho.widget.ViewportInfo.ViewportChanged;
 import java.util.ArrayList;
 import java.util.List;

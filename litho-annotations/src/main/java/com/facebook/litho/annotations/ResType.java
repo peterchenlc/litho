@@ -16,16 +16,26 @@
 
 package com.facebook.litho.annotations;
 
-import androidx.annotation.ArrayRes;
-import androidx.annotation.AttrRes;
-import androidx.annotation.BoolRes;
-import androidx.annotation.ColorInt;
-import androidx.annotation.ColorRes;
-import androidx.annotation.DimenRes;
-import androidx.annotation.Dimension;
-import androidx.annotation.DrawableRes;
-import androidx.annotation.IntegerRes;
-import androidx.annotation.StringRes;
+//import androidx.annotation.ArrayRes;
+//import androidx.annotation.AttrRes;
+//import androidx.annotation.BoolRes;
+//import androidx.annotation.ColorInt;
+//import androidx.annotation.ColorRes;
+//import androidx.annotation.DimenRes;
+//import androidx.annotation.Dimension;
+//import androidx.annotation.DrawableRes;
+//import androidx.annotation.IntegerRes;
+//import androidx.annotation.StringRes;
+import android.support.annotation.ArrayRes;
+import android.support.annotation.AttrRes;
+import android.support.annotation.BoolRes;
+import android.support.annotation.ColorInt;
+import android.support.annotation.ColorRes;
+import android.support.annotation.DimenRes;
+import android.support.annotation.Dimension;
+import android.support.annotation.DrawableRes;
+import android.support.annotation.IntegerRes;
+import android.support.annotation.StringRes;
 
 /**
  * This enum's constants are used to mark that {@link Prop} can receive resources of a corresponding

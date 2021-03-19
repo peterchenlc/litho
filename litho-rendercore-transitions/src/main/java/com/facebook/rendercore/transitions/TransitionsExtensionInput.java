@@ -16,7 +16,9 @@
 
 package com.facebook.rendercore.transitions;
 
-import androidx.annotation.Nullable;
+//import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
+
 import com.facebook.litho.AnimatableItem;
 import com.facebook.litho.OutputUnitsAffinityGroup;
 import com.facebook.litho.Transition;

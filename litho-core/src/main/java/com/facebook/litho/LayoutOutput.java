@@ -16,13 +16,16 @@
 
 package com.facebook.litho;
 
-import static androidx.core.view.ViewCompat.IMPORTANT_FOR_ACCESSIBILITY_NO;
+//import static androidx.core.view.ViewCompat.IMPORTANT_FOR_ACCESSIBILITY_NO;
+import static android.support.v4.view.ViewCompat.IMPORTANT_FOR_ACCESSIBILITY_NO;
 import static com.facebook.litho.annotations.ImportantForAccessibility.IMPORTANT_FOR_ACCESSIBILITY_YES;
 import static com.facebook.litho.annotations.ImportantForAccessibility.IMPORTANT_FOR_ACCESSIBILITY_YES_HIDE_DESCENDANTS;
 
 import android.graphics.Rect;
-import androidx.annotation.IntDef;
-import androidx.annotation.Nullable;
+import android.support.annotation.IntDef;
+import android.support.annotation.Nullable;
+//import androidx.annotation.IntDef;
+//import androidx.annotation.Nullable;
 import com.facebook.rendercore.MountItem;
 import com.facebook.rendercore.RenderTreeNode;
 import java.lang.annotation.Retention;

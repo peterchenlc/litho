@@ -16,8 +16,11 @@
 
 package com.facebook.litho;
 
-import androidx.annotation.Nullable;
-import androidx.core.util.Pools;
+//import androidx.annotation.Nullable;
+//import androidx.core.util.Pools;
+import android.support.annotation.Nullable;
+import android.support.v4.util.Pools;
+
 import com.facebook.infer.annotation.OkToExtend;
 import com.facebook.infer.annotation.ThreadSafe;
 

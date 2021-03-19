@@ -4,7 +4,8 @@ package com.facebook.rendercore;
 
 import android.content.Context;
 import android.os.Process;
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
+//import androidx.annotation.Nullable;
 import com.facebook.rendercore.extensions.RenderCoreExtension;
 import com.facebook.rendercore.utils.ThreadUtils;
 import java.util.concurrent.Callable;

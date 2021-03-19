@@ -17,7 +17,8 @@
 package com.facebook.litho;
 
 import android.graphics.Rect;
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
+//import androidx.annotation.Nullable;
 
 /** Interface used to expose a limited API to the animations package. */
 public interface AnimatableItem {

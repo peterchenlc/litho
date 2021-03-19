@@ -20,9 +20,9 @@ import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.text.TextUtils;
-import androidx.annotation.ColorInt;
-import androidx.annotation.Nullable;
-import androidx.core.text.TextDirectionHeuristicCompat;
+//import androidx.annotation.ColorInt;
+//import androidx.annotation.Nullable;
+//import androidx.core.text.TextDirectionHeuristicCompat;
 import com.facebook.rendercore.Copyable;
 
 public class TextStyle implements Copyable {

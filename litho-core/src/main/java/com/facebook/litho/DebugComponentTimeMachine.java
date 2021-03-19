@@ -16,7 +16,9 @@
 
 package com.facebook.litho;
 
-import androidx.annotation.UiThread;
+//import androidx.annotation.UiThread;
+import android.support.annotation.UiThread;
+
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

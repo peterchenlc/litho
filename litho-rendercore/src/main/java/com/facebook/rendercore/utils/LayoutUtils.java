@@ -21,8 +21,9 @@ import static android.os.Build.VERSION_CODES.JELLY_BEAN_MR1;
 
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
+import android.support.annotation.RequiresApi;
 import android.view.View;
-import androidx.annotation.RequiresApi;
+//import androidx.annotation.RequiresApi;
 
 public class LayoutUtils {
 

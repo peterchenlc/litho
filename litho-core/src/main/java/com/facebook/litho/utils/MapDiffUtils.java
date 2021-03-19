@@ -16,7 +16,9 @@
 
 package com.facebook.litho.utils;
 
-import androidx.annotation.Nullable;
+//import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
+
 import com.facebook.litho.CommonUtils;
 import java.util.Map;
 

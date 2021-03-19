@@ -16,11 +16,13 @@
 
 package com.facebook.litho.config;
 
+import android.support.annotation.Nullable;
+
 import static android.os.Build.VERSION.SDK_INT;
 import static android.os.Build.VERSION_CODES.JELLY_BEAN_MR1;
 import static android.os.Build.VERSION_CODES.LOLLIPOP_MR1;
 
-import androidx.annotation.Nullable;
+//import androidx.annotation.Nullable;
 import com.facebook.litho.BuildConfig;
 import com.facebook.litho.perfboost.LithoPerfBoosterFactory;
 import java.util.Set;

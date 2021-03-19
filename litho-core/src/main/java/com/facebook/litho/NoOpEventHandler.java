@@ -16,7 +16,9 @@
 
 package com.facebook.litho;
 
-import androidx.annotation.VisibleForTesting;
+//import androidx.annotation.VisibleForTesting;
+import android.support.annotation.VisibleForTesting;
+
 import javax.annotation.Nullable;
 
 public class NoOpEventHandler<E> extends EventHandler<E> {

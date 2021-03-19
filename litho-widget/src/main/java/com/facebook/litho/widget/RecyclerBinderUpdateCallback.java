@@ -16,9 +16,13 @@
 
 package com.facebook.litho.widget;
 
-import androidx.annotation.Nullable;
-import androidx.annotation.VisibleForTesting;
-import androidx.recyclerview.widget.ListUpdateCallback;
+//import androidx.annotation.Nullable;
+//import androidx.annotation.VisibleForTesting;
+//import androidx.recyclerview.widget.ListUpdateCallback;
+import android.support.annotation.Nullable;
+import android.support.annotation.VisibleForTesting;
+import android.support.v7.util.ListUpdateCallback;
+
 import com.facebook.litho.Component;
 import com.facebook.litho.ComponentContext;
 import com.facebook.litho.ComponentsReporter;

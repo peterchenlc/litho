@@ -82,7 +82,7 @@ dependencies {
     implementation project(':litho-sections-core')
     implementation deps.supportAppCompat
     implementation deps.supportRecyclerView
-    implementation deps.supportSwipeRefresh
+//    implementation deps.supportSwipeRefresh
     implementation deps.kotlinStandardLib
 
     compileOnly project(':litho-sections-annotations')

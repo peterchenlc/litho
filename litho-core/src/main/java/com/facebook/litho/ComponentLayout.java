@@ -17,8 +17,10 @@
 package com.facebook.litho;
 
 import android.graphics.drawable.Drawable;
-import androidx.annotation.Nullable;
-import androidx.annotation.Px;
+import android.support.annotation.Nullable;
+import android.support.annotation.Px;
+//import androidx.annotation.Nullable;
+//import androidx.annotation.Px;
 import com.facebook.infer.annotation.ThreadConfined;
 import com.facebook.yoga.YogaDirection;
 

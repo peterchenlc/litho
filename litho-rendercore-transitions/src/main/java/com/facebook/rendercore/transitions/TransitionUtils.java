@@ -18,8 +18,9 @@ package com.facebook.rendercore.transitions;
 
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
+import android.support.annotation.Nullable;
 import android.text.TextUtils;
-import androidx.annotation.Nullable;
+//import androidx.annotation.Nullable;
 import com.facebook.litho.Transition;
 import com.facebook.litho.TransitionId;
 import com.facebook.litho.TransitionSet;

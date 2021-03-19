@@ -40,6 +40,10 @@ subprojects {
         jcenter()
         mavenCentral()
         maven { url 'https://oss.sonatype.org/content/repositories/snapshots' }
+
+        flatDir {
+            dirs 'libs'
+        }
     }
     afterEvaluate {
         tasks.withType(com.android.build.gradle.tasks.factory.AndroidUnitTest) {
@@ -57,7 +61,7 @@ subprojects {
 }
 
 ext {
-    minSdkVersion = 15
+    minSdkVersion = 19
     targetSdkVersion = 28
     compileSdkVersion = 29
     buildToolsVersion = '29.0.3'
@@ -72,11 +76,15 @@ ext.isSnapshot = { VERSION_NAME.endsWith('-SNAPSHOT') }
 
 ext.deps = [
         // Android support
-        supportAnnotations : 'androidx.annotation:annotation:1.0.0',
-        supportAppCompat   : 'androidx.appcompat:appcompat:1.0.0',
-        supportCore        : 'androidx.core:core:1.0.0',
-        supportCustomView  : 'androidx.customview:customview:1.0.0',
-        supportRecyclerView: 'androidx.recyclerview:recyclerview:1.2.0-beta01',
+//        supportAnnotations : 'androidx.annotation:annotation:1.0.0',
+        supportAnnotations : 'com.android.support:support-annotations:28.0.0',
+//        supportAppCompat   : 'androidx.appcompat:appcompat:1.0.0',
+        supportAppCompat   : 'com.android.support:appcompat-v7:28.0.0',
+//        supportCore        : 'androidx.core:core:1.0.0',
+        supportCore        : 'com.android.support:support-compat:28.0.0',
+//        supportCustomView  : 'androidx.customview:customview:1.0.0',
+//        supportRecyclerView: 'androidx.recyclerview:recyclerview:1.2.0-beta01',
+        supportRecyclerView: 'com.android.support:recyclerview-v7:28.0.0',
         supportEspresso    : 'androidx.test.espresso:espresso-core:3.1.1',
         supportEspressoIntents : 'androidx.test.espresso:espresso-intents:3.1.1',
         supportTestCore    : 'androidx.test:core:1.2.0',
@@ -84,17 +92,17 @@ ext.deps = [
         supportTestRules   : 'androidx.test:rules:1.1.1',
         supportTestJunit   : 'androidx.test.ext:junit:1.1.2',
         supportMultidex    : 'androidx.multidex:multidex:2.0.0',
-        supportViewPager   : 'androidx.viewpager:viewpager:1.0.0',
+//        supportViewPager   : 'androidx.viewpager:viewpager:1.0.0',
         supportMaterial    : 'com.google.android.material:material:1.2.0',
         supportTransition  : 'androidx.transition:transition:1.0.0',
-        supportSwipeRefresh: 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0',
+//        supportSwipeRefresh: 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0',
         supportDynamicAnimations : 'androidx.dynamicanimation:dynamicanimation-ktx:1.0.0-alpha03',
         // Arch
         archLifecycle      : 'androidx.lifecycle:lifecycle-extensions:2.0.0-rc01',
         // First-party
         fresco             : 'com.facebook.fresco:fresco:1.13.0',
         soloader           : 'com.facebook.soloader:soloader:0.8.2',
-        textlayoutbuilder  : 'com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.5.0',
+//        textlayoutbuilder  : 'com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.5.0',
         screenshot         : 'com.facebook.testing.screenshot:core:0.5.0',
         flipper            : 'com.facebook.flipper:flipper:0.63.0',
         flipperLithoPlugin : 'com.facebook.flipper:flipper-litho-plugin:0.63.0',

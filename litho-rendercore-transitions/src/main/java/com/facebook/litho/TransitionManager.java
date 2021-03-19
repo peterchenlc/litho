@@ -16,13 +16,16 @@
 
 package com.facebook.litho;
 
+import android.support.annotation.IntDef;
+import android.support.annotation.Nullable;
+import android.support.v4.util.SparseArrayCompat;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewParent;
-import androidx.annotation.IntDef;
-import androidx.annotation.Nullable;
-import androidx.collection.SparseArrayCompat;
+//import androidx.annotation.IntDef;
+//import androidx.annotation.Nullable;
+//import androidx.collection.SparseArrayCompat;
 import com.facebook.litho.Transition.TransitionUnit;
 import com.facebook.litho.animation.AnimatedProperties;
 import com.facebook.litho.animation.AnimatedProperty;

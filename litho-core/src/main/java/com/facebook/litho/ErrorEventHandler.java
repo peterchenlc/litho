@@ -16,9 +16,11 @@
 
 package com.facebook.litho;
 
+import android.support.annotation.Nullable;
+
 import static com.facebook.litho.ComponentLifecycle.ERROR_EVENT_HANDLER_ID;
 
-import androidx.annotation.Nullable;
+//import androidx.annotation.Nullable;
 
 /**
  * This class is an error event handler that clients can optionally set on a {@link ComponentTree}

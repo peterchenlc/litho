@@ -17,8 +17,10 @@
 package com.facebook.litho;
 
 import android.content.res.TypedArray;
-import androidx.annotation.AttrRes;
-import androidx.annotation.StyleRes;
+import android.support.annotation.AttrRes;
+import android.support.annotation.StyleRes;
+//import androidx.annotation.AttrRes;
+//import androidx.annotation.StyleRes;
 
 public class InternalNodeUtils {
 

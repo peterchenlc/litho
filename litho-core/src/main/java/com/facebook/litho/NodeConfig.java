@@ -16,7 +16,9 @@
 
 package com.facebook.litho;
 
-import androidx.annotation.Nullable;
+//import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
+
 import com.facebook.litho.yoga.LithoYogaFactory;
 import com.facebook.yoga.YogaConfig;
 import com.facebook.yoga.YogaNode;

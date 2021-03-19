@@ -16,6 +16,8 @@
 
 package com.facebook.litho.specmodels.generator;
 
+import android.support.annotation.Nullable;
+
 import static com.facebook.litho.specmodels.generator.GeneratorConstants.DYNAMIC_PROPS;
 import static com.facebook.litho.specmodels.generator.GeneratorConstants.PREVIOUS_RENDER_DATA_FIELD_NAME;
 import static com.facebook.litho.specmodels.generator.GeneratorConstants.STATE_CONTAINER_GETTER;
@@ -23,7 +25,7 @@ import static com.facebook.litho.specmodels.generator.GeneratorConstants.STATE_C
 import static com.facebook.litho.specmodels.generator.InterStagePropsContainerGenerator.getInterStagePropsContainerClassName;
 import static com.facebook.litho.specmodels.generator.StateContainerGenerator.getStateContainerClassName;
 
-import androidx.annotation.Nullable;
+//import androidx.annotation.Nullable;
 import com.facebook.litho.annotations.Comparable;
 import com.facebook.litho.annotations.Prop;
 import com.facebook.litho.annotations.ResType;

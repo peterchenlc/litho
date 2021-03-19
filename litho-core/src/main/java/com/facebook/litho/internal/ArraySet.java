@@ -16,7 +16,9 @@
 
 package com.facebook.litho.internal;
 
-import androidx.collection.SimpleArrayMap;
+//import androidx.collection.SimpleArrayMap;
+import android.support.v4.util.SimpleArrayMap;
+
 import java.lang.reflect.Array;
 import java.util.Collection;
 import java.util.Iterator;

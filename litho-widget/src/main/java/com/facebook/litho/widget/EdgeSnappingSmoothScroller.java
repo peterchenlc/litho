@@ -17,7 +17,8 @@
 package com.facebook.litho.widget;
 
 import android.content.Context;
-import androidx.recyclerview.widget.LinearSmoothScroller;
+import android.support.v7.widget.LinearSmoothScroller;
+//import androidx.recyclerview.widget.LinearSmoothScroller;
 
 /** LinearSmoothScroller subclass that snaps the target position to start/end or either ends. */
 public class EdgeSnappingSmoothScroller extends LinearSmoothScroller {

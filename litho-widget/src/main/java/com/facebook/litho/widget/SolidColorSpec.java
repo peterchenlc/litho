@@ -20,7 +20,8 @@ import static android.widget.ImageView.ScaleType.FIT_XY;
 import static com.facebook.litho.annotations.ResType.COLOR;
 
 import android.graphics.drawable.ColorDrawable;
-import androidx.core.graphics.ColorUtils;
+import android.support.v4.graphics.ColorUtils;
+//import androidx.core.graphics.ColorUtils;
 import com.facebook.litho.Component;
 import com.facebook.litho.ComponentContext;
 import com.facebook.litho.annotations.LayoutSpec;

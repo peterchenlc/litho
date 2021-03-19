@@ -18,8 +18,9 @@ package com.facebook.litho;
 
 import android.animation.Animator;
 import android.animation.ValueAnimator;
+import android.support.annotation.Nullable;
 import android.view.animation.Interpolator;
-import androidx.annotation.Nullable;
+//import androidx.annotation.Nullable;
 import java.util.concurrent.atomic.AtomicReference;
 
 public class Animations {

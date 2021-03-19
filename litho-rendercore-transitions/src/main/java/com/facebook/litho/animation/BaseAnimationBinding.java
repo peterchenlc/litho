@@ -16,7 +16,9 @@
 
 package com.facebook.litho.animation;
 
-import androidx.annotation.Nullable;
+//import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
+
 import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
@@ -25,7 +27,8 @@ import java.util.concurrent.CopyOnWriteArrayList;
  */
 abstract class BaseAnimationBinding implements AnimationBinding {
   private CopyOnWriteArrayList<AnimationBindingListener> mListeners = new CopyOnWriteArrayList<>();
-  @Nullable private Object mTag;
+  @Nullable
+  private Object mTag;
 
   @Override
   public final void addListener(AnimationBindingListener animationBindingListener) {

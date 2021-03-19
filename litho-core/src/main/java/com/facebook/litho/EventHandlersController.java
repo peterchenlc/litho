@@ -16,9 +16,13 @@
 
 package com.facebook.litho;
 
-import androidx.annotation.Nullable;
-import androidx.annotation.VisibleForTesting;
-import androidx.collection.SparseArrayCompat;
+//import androidx.annotation.Nullable;
+//import androidx.annotation.VisibleForTesting;
+//import androidx.collection.SparseArrayCompat;
+import android.support.annotation.Nullable;
+import android.support.annotation.VisibleForTesting;
+import android.support.v4.util.SparseArrayCompat;
+
 import com.facebook.infer.annotation.ThreadSafe;
 import java.util.HashMap;
 import java.util.Iterator;

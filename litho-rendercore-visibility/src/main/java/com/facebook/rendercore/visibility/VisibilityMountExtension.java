@@ -21,10 +21,13 @@ import static com.facebook.rendercore.visibility.VisibilityUtils.log;
 
 import android.graphics.Rect;
 import android.os.Build;
+import android.support.annotation.Nullable;
+import android.support.annotation.UiThread;
+import android.support.annotation.VisibleForTesting;
 import android.view.View;
-import androidx.annotation.Nullable;
-import androidx.annotation.UiThread;
-import androidx.annotation.VisibleForTesting;
+//import androidx.annotation.Nullable;
+//import androidx.annotation.UiThread;
+//import androidx.annotation.VisibleForTesting;
 import com.facebook.rendercore.Function;
 import com.facebook.rendercore.Host;
 import com.facebook.rendercore.RenderCoreSystrace;

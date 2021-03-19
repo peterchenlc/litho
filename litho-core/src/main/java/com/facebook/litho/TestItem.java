@@ -17,9 +17,11 @@
 package com.facebook.litho;
 
 import android.graphics.Rect;
+import android.support.annotation.Nullable;
+import android.support.annotation.VisibleForTesting;
 import android.widget.Checkable;
-import androidx.annotation.Nullable;
-import androidx.annotation.VisibleForTesting;
+//import androidx.annotation.Nullable;
+//import androidx.annotation.VisibleForTesting;
 import com.facebook.proguard.annotations.DoNotStrip;
 import java.util.Collections;
 import java.util.List;

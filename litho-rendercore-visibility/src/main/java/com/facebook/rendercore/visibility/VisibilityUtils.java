@@ -18,8 +18,9 @@ package com.facebook.rendercore.visibility;
 
 import static com.facebook.rendercore.visibility.VisibilityExtensionConfigs.DEBUG_TAG;
 
+import android.support.annotation.Nullable;
 import android.util.Log;
-import androidx.annotation.Nullable;
+//import androidx.annotation.Nullable;
 import com.facebook.litho.FocusedVisibleEvent;
 import com.facebook.litho.FullImpressionVisibleEvent;
 import com.facebook.litho.InvisibleEvent;

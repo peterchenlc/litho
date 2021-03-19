@@ -16,8 +16,9 @@
 
 package com.facebook.litho;
 
+import android.support.annotation.Nullable;
 import android.view.View;
-import androidx.annotation.Nullable;
+//import androidx.annotation.Nullable;
 
 /**
  * Helper class in charge of dumping the component hierarchy related to a provided {@link

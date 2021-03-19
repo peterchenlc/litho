@@ -16,13 +16,15 @@
 
 package com.facebook.litho;
 
+import android.support.annotation.IntDef;
+
 import static com.facebook.litho.OutputUnitType.BACKGROUND;
 import static com.facebook.litho.OutputUnitType.BORDER;
 import static com.facebook.litho.OutputUnitType.CONTENT;
 import static com.facebook.litho.OutputUnitType.FOREGROUND;
 import static com.facebook.litho.OutputUnitType.HOST;
 
-import androidx.annotation.IntDef;
+//import androidx.annotation.IntDef;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 

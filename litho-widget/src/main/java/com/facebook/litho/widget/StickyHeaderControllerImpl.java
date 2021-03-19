@@ -18,10 +18,13 @@ package com.facebook.litho.widget;
 
 import android.annotation.TargetApi;
 import android.os.Build;
+import android.support.annotation.Nullable;
+import android.support.annotation.VisibleForTesting;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
-import androidx.annotation.Nullable;
-import androidx.annotation.VisibleForTesting;
-import androidx.recyclerview.widget.RecyclerView;
+//import androidx.annotation.Nullable;
+//import androidx.annotation.VisibleForTesting;
+//import androidx.recyclerview.widget.RecyclerView;
 import com.facebook.litho.ComponentTree;
 import com.facebook.litho.ComponentsReporter;
 import com.facebook.litho.LithoView;

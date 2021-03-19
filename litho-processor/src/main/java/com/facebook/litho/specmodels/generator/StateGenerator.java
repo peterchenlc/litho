@@ -16,9 +16,11 @@
 
 package com.facebook.litho.specmodels.generator;
 
+import android.support.annotation.VisibleForTesting;
+
 import static com.facebook.litho.specmodels.generator.StateContainerGenerator.getStateContainerClassName;
 
-import androidx.annotation.VisibleForTesting;
+//import androidx.annotation.VisibleForTesting;
 import com.facebook.litho.annotations.Param;
 import com.facebook.litho.specmodels.internal.ImmutableList;
 import com.facebook.litho.specmodels.model.ClassNames;

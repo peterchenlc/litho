@@ -16,9 +16,13 @@
 
 package com.facebook.litho.widget;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.VisibleForTesting;
-import androidx.collection.LruCache;
+//import androidx.annotation.NonNull;
+//import androidx.annotation.VisibleForTesting;
+//import androidx.collection.LruCache;
+import android.support.annotation.NonNull;
+import android.support.annotation.VisibleForTesting;
+import android.support.v4.util.LruCache;
+
 import com.facebook.litho.ComponentContext;
 import com.facebook.litho.ComponentsReporter;
 import com.facebook.litho.LithoHandler;

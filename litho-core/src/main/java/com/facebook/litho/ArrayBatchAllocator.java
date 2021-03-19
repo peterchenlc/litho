@@ -16,13 +16,16 @@
 
 package com.facebook.litho;
 
-import androidx.annotation.Nullable;
+//import androidx.annotation.Nullable;
+
+import android.support.annotation.Nullable;
 
 public class ArrayBatchAllocator {
 
   private static int batchSize = 200;
 
-  @Nullable private static int[][] arrays = null;
+  @Nullable
+  private static int[][] arrays = null;
   private static int index = 0;
 
   /** same as calling new int[2]; */

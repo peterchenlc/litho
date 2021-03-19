@@ -19,9 +19,10 @@ package com.facebook.litho.widget;
 import android.annotation.TargetApi;
 import android.graphics.Typeface;
 import android.os.Build;
+import android.support.annotation.Nullable;
 import android.util.LongSparseArray;
 import android.util.SparseArray;
-import androidx.annotation.Nullable;
+//import androidx.annotation.Nullable;
 import java.lang.reflect.Field;
 import java.util.concurrent.atomic.AtomicBoolean;
 

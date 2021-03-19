@@ -16,7 +16,9 @@
 
 package com.facebook.litho.widget;
 
-import androidx.annotation.Nullable;
+//import androidx.annotation.Nullable;
+
+import android.support.annotation.Nullable;
 
 /**
  * A controller that can be passed as {@link com.facebook.litho.annotations.Prop} to a {@link

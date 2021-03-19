@@ -16,8 +16,9 @@
 
 package com.facebook.litho;
 
+import android.support.annotation.Nullable;
 import android.util.SparseArray;
-import androidx.annotation.Nullable;
+//import androidx.annotation.Nullable;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;

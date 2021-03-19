@@ -65,7 +65,7 @@ dependencies {
         exclude group: "com.google.guava", module: "guava"
     }
     implementation deps.supportAppCompat
-    implementation deps.textlayoutbuilder
+//    implementation deps.textlayoutbuilder
     implementation deps.supportRecyclerView
     implementation deps.supportTestCore
     implementation deps.supportTestRunner

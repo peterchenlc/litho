@@ -22,11 +22,14 @@ import static com.facebook.litho.SizeSpec.UNSPECIFIED;
 
 import android.content.Context;
 import android.os.Build;
+import android.support.annotation.Nullable;
+import android.support.v4.widget.NestedScrollView;
+import android.support.v4.widget.NestedScrollView.OnScrollChangeListener;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
-import androidx.annotation.Nullable;
-import androidx.core.widget.NestedScrollView;
-import androidx.core.widget.NestedScrollView.OnScrollChangeListener;
+//import androidx.annotation.Nullable;
+//import androidx.core.widget.NestedScrollView;
+//import androidx.core.widget.NestedScrollView.OnScrollChangeListener;
 import com.facebook.litho.Component;
 import com.facebook.litho.ComponentContext;
 import com.facebook.litho.ComponentLayout;

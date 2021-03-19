@@ -16,10 +16,13 @@
 
 package com.facebook.litho;
 
+import android.support.annotation.Nullable;
+import android.support.v4.util.LongSparseArray;
+
 import static com.facebook.rendercore.MountState.ROOT_HOST_ID;
 
-import androidx.annotation.Nullable;
-import androidx.collection.LongSparseArray;
+//import androidx.annotation.Nullable;
+//import androidx.collection.LongSparseArray;
 
 /**
  * Utility class used to calculate the id of a {@link LayoutOutput} in the context of a {@link

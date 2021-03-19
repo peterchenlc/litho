@@ -16,9 +16,10 @@
 
 package com.facebook.litho;
 
+import android.support.annotation.Nullable;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.Interpolator;
-import androidx.annotation.Nullable;
+//import androidx.annotation.Nullable;
 import com.facebook.infer.annotation.ThreadSafe;
 import com.facebook.litho.animation.AnimatedProperties;
 import com.facebook.litho.animation.AnimatedProperty;

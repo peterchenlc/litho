@@ -16,10 +16,15 @@
 
 package com.facebook.litho.dataflow;
 
-import androidx.annotation.Nullable;
-import androidx.annotation.VisibleForTesting;
-import androidx.collection.ArraySet;
-import androidx.collection.SimpleArrayMap;
+//import androidx.annotation.Nullable;
+//import androidx.annotation.VisibleForTesting;
+//import androidx.collection.ArraySet;
+//import androidx.collection.SimpleArrayMap;
+import android.support.annotation.Nullable;
+import android.support.annotation.VisibleForTesting;
+import android.support.v4.util.ArraySet;
+import android.support.v4.util.SimpleArrayMap;
+
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Collections;

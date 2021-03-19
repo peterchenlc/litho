@@ -16,7 +16,9 @@
 
 package com.facebook.litho;
 
-import androidx.annotation.Nullable;
+//import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
+
 import com.facebook.rendercore.Function;
 
 public class EventHandler<E> implements Function<Void>, Equivalence<EventHandler<E>> {

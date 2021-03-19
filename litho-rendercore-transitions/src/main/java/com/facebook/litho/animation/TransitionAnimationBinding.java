@@ -16,7 +16,9 @@
 
 package com.facebook.litho.animation;
 
-import androidx.annotation.VisibleForTesting;
+//import androidx.annotation.VisibleForTesting;
+import android.support.annotation.VisibleForTesting;
+
 import com.facebook.litho.dataflow.BindingListener;
 import com.facebook.litho.dataflow.GraphBinding;
 import com.facebook.litho.dataflow.ValueNode;

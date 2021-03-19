@@ -16,8 +16,9 @@
 
 package com.facebook.rendercore;
 
+import android.support.annotation.Nullable;
 import android.view.View.MeasureSpec;
-import androidx.annotation.Nullable;
+//import androidx.annotation.Nullable;
 import com.facebook.infer.annotation.ThreadConfined;
 import com.facebook.rendercore.extensions.RenderCoreExtension;
 

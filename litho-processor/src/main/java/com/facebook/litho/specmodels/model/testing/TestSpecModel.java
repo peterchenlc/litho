@@ -16,7 +16,9 @@
 
 package com.facebook.litho.specmodels.model.testing;
 
-import androidx.annotation.VisibleForTesting;
+//import androidx.annotation.VisibleForTesting;
+import android.support.annotation.VisibleForTesting;
+
 import com.facebook.litho.specmodels.internal.ImmutableList;
 import com.facebook.litho.specmodels.internal.RunMode;
 import com.facebook.litho.specmodels.model.BuilderMethodModel;

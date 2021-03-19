@@ -16,7 +16,9 @@
 
 package com.facebook.litho.stats;
 
-import androidx.annotation.VisibleForTesting;
+//import androidx.annotation.VisibleForTesting;
+import android.support.annotation.VisibleForTesting;
+
 import java.util.concurrent.atomic.AtomicLong;
 
 /** Provides global counters about Litho internals. Useful for performance analyses. */

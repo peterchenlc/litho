@@ -36,7 +36,7 @@ android {
 dependencies {
     implementation project(':litho-core')
     implementation deps.supportRecyclerView
-    implementation deps.supportSwipeRefresh
+//    implementation deps.supportSwipeRefresh
     annotationProcessor project(':litho-processor')
 
     // Annotations
@@ -44,7 +44,8 @@ dependencies {
     compileOnly deps.inferAnnotations
 
     // First-party
-    implementation deps.textlayoutbuilder
+//    implementation deps.textlayoutbuilder
+    implementation(name:'textlayoutbuilder-release', ext:'aar')
 }
 
 apply from: rootProject.file('gradle/release.gradle')

@@ -17,9 +17,11 @@
 package com.facebook.litho;
 
 import android.graphics.drawable.Drawable;
+import android.support.annotation.Nullable;
+import android.support.v4.util.SparseArrayCompat;
 import android.view.View;
-import androidx.annotation.Nullable;
-import androidx.collection.SparseArrayCompat;
+//import androidx.annotation.Nullable;
+//import androidx.collection.SparseArrayCompat;
 import com.facebook.rendercore.MountItem;
 import java.util.ArrayList;
 import java.util.Collections;

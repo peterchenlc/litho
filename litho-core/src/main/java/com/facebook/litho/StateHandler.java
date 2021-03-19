@@ -16,10 +16,13 @@
 
 package com.facebook.litho;
 
+import android.support.annotation.Nullable;
+import android.support.annotation.VisibleForTesting;
+
 import static com.facebook.litho.StateContainer.StateUpdate;
 
-import androidx.annotation.Nullable;
-import androidx.annotation.VisibleForTesting;
+//import androidx.annotation.Nullable;
+//import androidx.annotation.VisibleForTesting;
 import com.facebook.infer.annotation.ThreadSafe;
 import com.facebook.litho.stats.LithoStats;
 import com.facebook.rendercore.transitions.TransitionUtils;

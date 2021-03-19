@@ -17,7 +17,8 @@
 package com.facebook.rendercore;
 
 import android.graphics.Rect;
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
+//import androidx.annotation.Nullable;
 import com.facebook.proguard.annotations.DoNotStrip;
 import java.util.ArrayList;
 import java.util.List;

@@ -21,9 +21,10 @@ import static android.view.MotionEvent.ACTION_DOWN;
 import static android.view.MotionEvent.ACTION_MOVE;
 import static android.view.MotionEvent.ACTION_UP;
 
+import android.support.annotation.UiThread;
 import android.view.MotionEvent;
 import android.view.View;
-import androidx.annotation.UiThread;
+//import androidx.annotation.UiThread;
 import javax.annotation.Nullable;
 
 /**

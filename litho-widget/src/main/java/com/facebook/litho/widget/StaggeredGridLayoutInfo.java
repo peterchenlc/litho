@@ -16,14 +16,18 @@
 
 package com.facebook.litho.widget;
 
-import static androidx.recyclerview.widget.OrientationHelper.VERTICAL;
+//import static androidx.recyclerview.widget.OrientationHelper.VERTICAL;
+import static android.support.v7.widget.OrientationHelper.VERTICAL;
 import static com.facebook.litho.SizeSpec.EXACTLY;
 import static com.facebook.litho.SizeSpec.UNSPECIFIED;
 
+import android.support.annotation.Nullable;
+import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.ViewGroup;
-import androidx.annotation.Nullable;
-import androidx.recyclerview.widget.RecyclerView;
-import androidx.recyclerview.widget.StaggeredGridLayoutManager;
+//import androidx.annotation.Nullable;
+//import androidx.recyclerview.widget.RecyclerView;
+//import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 import com.facebook.litho.LithoView;
 import com.facebook.litho.SizeSpec;
 import com.facebook.litho.widget.RecyclerBinder.RecyclerViewLayoutManagerOverrideParams;
