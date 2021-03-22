@@ -16,8 +16,11 @@
 
 package com.facebook.litho.sections;
 
-import androidx.annotation.VisibleForTesting;
-import androidx.core.util.Pair;
+//import androidx.annotation.VisibleForTesting;
+//import androidx.core.util.Pair;
+import android.support.annotation.VisibleForTesting;
+import android.support.v4.util.Pair;
+
 import com.facebook.litho.ComponentContext;
 import com.facebook.litho.Equivalence;
 import com.facebook.litho.EventDispatcher;

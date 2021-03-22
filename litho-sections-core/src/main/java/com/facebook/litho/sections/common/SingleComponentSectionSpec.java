@@ -16,11 +16,13 @@
 
 package com.facebook.litho.sections.common;
 
+import android.support.annotation.Nullable;
+
 import static com.facebook.litho.widget.RenderInfoDebugInfoRegistry.SONAR_SECTIONS_DEBUG_INFO_TAG;
 import static com.facebook.litho.widget.RenderInfoDebugInfoRegistry.SONAR_SINGLE_COMPONENT_SECTION_DATA_NEXT;
 import static com.facebook.litho.widget.RenderInfoDebugInfoRegistry.SONAR_SINGLE_COMPONENT_SECTION_DATA_PREV;
 
-import androidx.annotation.Nullable;
+//import androidx.annotation.Nullable;
 import com.facebook.litho.Component;
 import com.facebook.litho.ComponentsLogger;
 import com.facebook.litho.Diff;

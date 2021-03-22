@@ -16,7 +16,9 @@
 
 package com.facebook.litho.sections;
 
-import androidx.annotation.VisibleForTesting;
+//import androidx.annotation.VisibleForTesting;
+import android.support.annotation.VisibleForTesting;
+
 import com.facebook.litho.StateContainer;
 
 /**

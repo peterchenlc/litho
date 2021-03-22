@@ -16,11 +16,15 @@
 
 package com.facebook.litho.sections.widget;
 
+import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.SnapHelper;
+import android.support.v7.widget.StaggeredGridLayoutManager;
+
 import static com.facebook.litho.widget.SnapUtil.SNAP_NONE;
 
-import androidx.recyclerview.widget.RecyclerView;
-import androidx.recyclerview.widget.SnapHelper;
-import androidx.recyclerview.widget.StaggeredGridLayoutManager;
+//import androidx.recyclerview.widget.RecyclerView;
+//import androidx.recyclerview.widget.SnapHelper;
+//import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 import com.facebook.litho.ComponentContext;
 import com.facebook.litho.sections.SectionTree;
 import com.facebook.litho.widget.Binder;

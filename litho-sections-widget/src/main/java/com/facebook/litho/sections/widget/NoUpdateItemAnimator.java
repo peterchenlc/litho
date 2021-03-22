@@ -16,8 +16,10 @@
 
 package com.facebook.litho.sections.widget;
 
-import androidx.recyclerview.widget.DefaultItemAnimator;
-import androidx.recyclerview.widget.RecyclerView;
+//import androidx.recyclerview.widget.DefaultItemAnimator;
+//import androidx.recyclerview.widget.RecyclerView;
+
+import android.support.v7.widget.DefaultItemAnimator;
 
 /**
  * This implementation of {@link RecyclerView.ItemAnimator} disables animations of item change

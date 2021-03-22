@@ -16,9 +16,11 @@
 
 package com.facebook.litho.sections;
 
+import android.support.annotation.Nullable;
+
 import static com.facebook.litho.sections.SectionContext.NO_SCOPE_EVENT_HANDLER;
 
-import androidx.annotation.Nullable;
+//import androidx.annotation.Nullable;
 import com.facebook.litho.ComponentContext;
 import com.facebook.litho.ComponentUtils;
 import com.facebook.litho.ComponentsReporter;

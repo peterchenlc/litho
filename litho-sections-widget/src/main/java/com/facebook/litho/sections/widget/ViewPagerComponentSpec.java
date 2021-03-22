@@ -17,7 +17,8 @@
 package com.facebook.litho.sections.widget;
 
 import android.content.Context;
-import androidx.recyclerview.widget.LinearLayoutManager;
+import android.support.v7.widget.LinearLayoutManager;
+//import androidx.recyclerview.widget.LinearLayoutManager;
 import com.facebook.infer.annotation.Nullsafe;
 import com.facebook.litho.Component;
 import com.facebook.litho.ComponentContext;

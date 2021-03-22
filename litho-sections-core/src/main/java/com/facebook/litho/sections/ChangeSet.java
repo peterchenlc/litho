@@ -16,6 +16,9 @@
 
 package com.facebook.litho.sections;
 
+import android.support.annotation.Nullable;
+import android.support.annotation.VisibleForTesting;
+
 import static com.facebook.infer.annotation.ThreadConfined.ANY;
 import static com.facebook.litho.sections.Change.DELETE;
 import static com.facebook.litho.sections.Change.DELETE_RANGE;
@@ -25,8 +28,8 @@ import static com.facebook.litho.sections.Change.MOVE;
 import static com.facebook.litho.sections.Change.UPDATE;
 import static com.facebook.litho.sections.Change.UPDATE_RANGE;
 
-import androidx.annotation.Nullable;
-import androidx.annotation.VisibleForTesting;
+//import androidx.annotation.Nullable;
+//import androidx.annotation.VisibleForTesting;
 import com.facebook.infer.annotation.ThreadConfined;
 import com.facebook.litho.TreeProps;
 import com.facebook.litho.sections.SectionTree.Target;

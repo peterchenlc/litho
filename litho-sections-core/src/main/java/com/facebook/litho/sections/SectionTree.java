@@ -29,11 +29,14 @@ import static com.facebook.litho.ThreadUtils.isMainThread;
 
 import android.os.HandlerThread;
 import android.os.Looper;
+import android.support.annotation.UiThread;
+import android.support.annotation.VisibleForTesting;
+import android.support.v4.util.Pair;
 import android.text.TextUtils;
 import android.util.Log;
-import androidx.annotation.UiThread;
-import androidx.annotation.VisibleForTesting;
-import androidx.core.util.Pair;
+//import androidx.annotation.UiThread;
+//import androidx.annotation.VisibleForTesting;
+//import androidx.core.util.Pair;
 import com.facebook.infer.annotation.ThreadConfined;
 import com.facebook.litho.Component;
 import com.facebook.litho.ComponentsLogger;

@@ -16,7 +16,9 @@
 
 package com.facebook.litho.sections;
 
-import androidx.annotation.Nullable;
+//import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
+
 import com.facebook.litho.StateContainer;
 
 /** Exposes methods needed for debugging tools like Stetho and Flipper. Do not use! */
